@@ -1,0 +1,42 @@
+{
+  "nodes": {
+    "colr": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1526098270,
+        "narHash": "sha256-mNFbozTWbd/isXguXTs1k6ofkSOSOvIkmxWMpnwZCkk=",
+        "owner": "wangp",
+        "repo": "colr",
+        "rev": "8aba88a1f95057c86608aa517efd2a8c802b02df",
+        "type": "github"
+      },
+      "original": {
+        "owner": "wangp",
+        "repo": "colr",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1729722069,
+        "narHash": "sha256-gY9Wc8ZhBsPdQqWnTV+XuNaj2dbQW0uslAaJHamczSE=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "6301495959cf1737c6ebcd153833e4c4596f56e2",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "colr": "colr",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
